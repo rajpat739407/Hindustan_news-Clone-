@@ -17,7 +17,7 @@ export default function HeroSection({ featuredNews }) {
         </h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Main Featured News */}
+          {/* This section have code of Main Featured News */}
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="relative h-80">
@@ -44,7 +44,7 @@ export default function HeroSection({ featuredNews }) {
             </div>
           </div>
 
-          {/* Side Featured News */}
+          {/*Code for Side News */}
           <div className="space-y-4">
             {sideNews.map((news) => (
               <div key={news.id} className="bg-white rounded-lg shadow-md overflow-hidden">
