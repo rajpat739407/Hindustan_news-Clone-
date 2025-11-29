@@ -29,7 +29,7 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Navigation */}
+          {/* Navigation code */}
           <nav className="flex space-x-6 mb-4 md:mb-0">
             <Link href="/" className="text-gray-700 hover:text-red-600 font-medium">
               मुख्य समाचार
@@ -45,7 +45,7 @@ export default function Header() {
             </Link>
           </nav>
 
-          {/* Search */}
+          {/* code for Search */}
           <div className="w-full md:w-auto">
             <form onSubmit={handleSearch} className="relative">
               <input
