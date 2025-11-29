@@ -11,7 +11,6 @@ export const metadata = {
   keywords: 'हिंदी न्यूज़, समाचार, ब्रेकिंग न्यूज़, भारत, राजनीति, मनोरंजन, खेल',
 }
 
-// Force dynamic rendering to avoid static generation issues
 export const dynamic = 'force-dynamic'
 
 export default function RootLayout({ children }) {
