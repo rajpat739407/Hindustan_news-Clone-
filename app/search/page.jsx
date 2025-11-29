@@ -18,7 +18,7 @@ export default async function SearchPage({ searchParams }) {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="max-w-6xl mx-auto">
-        {/* Search Header */}
+        {/* code for SearchHeader */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">
             {query ? `"${query}" के लिए खोज परिणाम` : 'खोजें'}
@@ -32,7 +32,7 @@ export default async function SearchPage({ searchParams }) {
           )}
         </div>
 
-        {/* Search Results */}
+        {/* code for SearchResults */}
         {error && (
           <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-6">
             खोज में त्रुटि: {error}
