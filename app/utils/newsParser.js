@@ -1,5 +1,5 @@
 import { XMLParser } from 'fast-xml-parser';
-
+// Write code using AI for function generateStableId
 // Generate stable IDs based on content
 function generateStableId(title, source) {
   // Create a simple hash from title and source
@@ -38,7 +38,6 @@ export async function fetchTopHeadlines() {
     }
 
     const news = data.articles.map((article, index) => {
-      // Generate stable ID that won't change between requests
       const stableId = generateStableId(article.title, article.source?.name || 'GNews');
       
       return {
@@ -57,7 +56,7 @@ export async function fetchTopHeadlines() {
     return news;
   } catch (error) {
     console.error('Error fetching news from GNews:', error);
-    // Fallback to mock data
+    // code for Fallback to mock data
     return getMockNews();
   }
 }
