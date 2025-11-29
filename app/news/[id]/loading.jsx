@@ -2,17 +2,16 @@ export default function Loading() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="max-w-4xl mx-auto">
-        {/* Breadcrumb Skeleton */}
         <div className="mb-6">
           <div className="h-4 bg-gray-200 rounded w-32 animate-pulse"></div>
         </div>
 
-        {/* Article Skeleton */}
+        {/* Article Sklten */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          {/* Image Skeleton */}
+          {/* Image Sklton */}
           <div className="h-96 bg-gray-200 animate-pulse"></div>
 
-          {/* Content Skeleton */}
+          {/* Content Sklton */}
           <div className="p-6">
             <div className="flex items-center justify-between mb-4">
               <div className="h-6 bg-gray-200 rounded w-24 animate-pulse"></div>
